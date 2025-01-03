@@ -34,6 +34,7 @@
     <ClInclude Include="src\Lupus\Log.h">
       <Filter>Lupus</Filter>
     </ClInclude>
+    <ClInclude Include="src\lppch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Lupus\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\Lupus\Log.cpp">
       <Filter>Lupus</Filter>
     </ClCompile>
+    <ClCompile Include="src\lppch.cpp" />
   </ItemGroup>
 </Project>

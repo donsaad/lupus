@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Lupus {
 
 	class LUPUS_API WindowResizeEvent : public Event

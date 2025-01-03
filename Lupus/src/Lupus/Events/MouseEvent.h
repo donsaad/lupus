@@ -1,8 +1,6 @@
 #pragma once
 
 
-#include <sstream>
-
 namespace Lupus {
 
 	class LUPUS_API MouseMovedEvent : public Event

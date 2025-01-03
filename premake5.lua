@@ -19,6 +19,9 @@ project "Lupus"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "lppch.h"
+	pchsource "Lupus/src/lppch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

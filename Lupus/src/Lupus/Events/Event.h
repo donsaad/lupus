@@ -2,9 +2,6 @@
 
 #include "Lupus/Core.h"
 
-#include <string>
-#include <functional>
-
 namespace Lupus {
 
 	enum class EventType

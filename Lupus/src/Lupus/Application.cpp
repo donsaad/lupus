@@ -1,3 +1,4 @@
+#include "lppch.h"
 #include "Application.h"
 #include "Events/ApplicationEvent.h"
 #include "Lupus/Log.h"
