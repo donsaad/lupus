@@ -9,3 +9,5 @@
 #else
 	#error Lupus only supports Windows OS!
 #endif
+
+#define BIT(x) (1 << x)
